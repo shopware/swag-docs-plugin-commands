@@ -1,0 +1,26 @@
+{
+    "name": "swag/plugin-commands",
+    "description": "Plugin with custom commands",
+    "version": "v1.0.0",
+    "type": "shopware-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shopware AG"
+        }
+    ],
+    "require": {
+        "shopware/platform": "dev-master"
+    },
+    "extra": {
+        "installer-name": "PluginCommands",
+        "label": {
+            "de_DE": "Plugin mit individuellen Befehlen",
+            "en_GB": "Plugin with custom commands"
+        },
+        "description": {
+            "de_DE": "Plugin mit individuellen Befehlen",
+            "en_GB": "Plugin with custom commands"
+        }
+    }
+}
