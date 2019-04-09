@@ -2,7 +2,7 @@
     "name": "swag/plugin-commands",
     "description": "Plugin with custom commands",
     "version": "v1.0.0",
-    "type": "shopware-plugin",
+    "type": "shopware-platform-plugin",
     "license": "MIT",
     "authors": [
         {
@@ -13,7 +13,7 @@
         "shopware/platform": "dev-master"
     },
     "extra": {
-        "installer-name": "PluginCommands",
+        "shopware-plugin-class": "Swag\\PluginCommands\\PluginCommands",
         "label": {
             "de_DE": "Plugin mit individuellen Befehlen",
             "en_GB": "Plugin with custom commands"
@@ -21,6 +21,11 @@
         "description": {
             "de_DE": "Plugin mit individuellen Befehlen",
             "en_GB": "Plugin with custom commands"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Swag\\PluginCommands\\": "src/"
         }
     }
 }
