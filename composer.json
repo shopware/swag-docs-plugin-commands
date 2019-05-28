@@ -15,12 +15,12 @@
     "extra": {
         "shopware-plugin-class": "Swag\\PluginCommands\\PluginCommands",
         "label": {
-            "de-DE": "Plugin mit individuellen Befehlen",
-            "en-GB": "Plugin with custom commands"
+            "de-DE": "Label für das Plugin PluginCommands",
+            "en-GB": "Label for the plugin PluginCommands"
         },
         "description": {
-            "de-DE": "Plugin mit individuellen Befehlen",
-            "en-GB": "Plugin with custom commands"
+            "de-DE": "Beschreibung für das Plugin PluginCommands",
+            "en-GB": "Description for the plugin PluginCommands"
         }
     },
     "autoload": {
